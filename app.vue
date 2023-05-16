@@ -19,8 +19,8 @@ useSeoMeta({
     initialScale: 1,
     maximumScale: 1,
   },
-  title: () => user.value ? `${user.value.login} Todos` : 'Nuxt Todos Edge',
-  description: 'A Nuxt demo hosted on Edgio with server-side rendering on the edge, authentication and queyring a SQLite database',
+  title: () => user.value ? `${user.value.login} Todos` : 'Nuxt Todos Edgio',
+  description: 'A Nuxt demo hosted on Edgio with server-side rendering, authentication and queyring a SQLite database',
   ogImage: '/social-image.png',
   twitterImage: '/social-image.png',
   twitterCard: 'summary_large_image'
@@ -35,11 +35,11 @@ useSeoMeta({
     <TodoList v-if="loggedIn" />
     <LoginForm v-else />
     <footer class="text-center mt-2">
-      <NuxtLink href="https://github.com/atinux/nuxt-todos-edge" target="_blank" class="text-sm text-gray-500 hover:text-gray-700">
+      <NuxtLink href="https://github.com/rishi-raj-jain/nuxt-turso-edgio-example" target="_blank" class="text-sm text-gray-500 hover:text-gray-700">
         GitHub
       </NuxtLink>
       ·
-      <NuxtLink href="https://twitter.com/Atinux" target="_blank" class="text-sm text-gray-500 hover:text-gray-700">
+      <NuxtLink href="https://twitter.com/rishi_raj_jain_" target="_blank" class="text-sm text-gray-500 hover:text-gray-700">
         Twitter
       </NuxtLink>
     </footer>
