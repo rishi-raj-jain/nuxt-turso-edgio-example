@@ -20,7 +20,7 @@ useSeoMeta({
     maximumScale: 1,
   },
   title: () => user.value ? `${user.value.login} Todos` : 'Nuxt Todos Edge',
-  description: 'A Nuxt demo hosted on CloudFlare Pages with server-side rendering on the edge, authentication and queyring a SQLite database',
+  description: 'A Nuxt demo hosted on Edgio with server-side rendering on the edge, authentication and queyring a SQLite database',
   ogImage: '/social-image.png',
   twitterImage: '/social-image.png',
   twitterCard: 'summary_large_image'

@@ -17,7 +17,7 @@ const isTurso = useRequestURL().host.includes('-turso')
       />
     </template>
     <p>
-      Welcome to Nuxt Todos Edge. A demo hosted on CloudFlare Pages with server-side rendering on the edge and using the <NuxtLink
+      Welcome to Nuxt Todos Edge. A demo hosted on Edgio with server-side rendering on the edge and using the <NuxtLink
         :href="isTurso ? 'https://turso.tech' : 'https://developers.cloudflare.com/d1/'"
         target="_blank"
         class="text-primary-500"
